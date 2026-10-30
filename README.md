@@ -20,6 +20,8 @@ Polls `https://openrouter.ai/api/v1/credits` and `/api/v1/auth/key` every 5 minu
 | Key usage (month) | USD | Monthly usage of the current key |
 | Usage last hour / 2 hours / 24 hours | USD | Rolling-window consumption |
 
+![OpenRouter Usage — device page in Home Assistant](images/preview.png)
+
 ### How the delta sensors work
 
 Every poll is stored as a sample in a rolling 48 h history (`.storage/openrouter_usage.samples`, private file). Since OpenRouter usage is a cumulative counter, deltas are sums of positive increments. History starts empty; all windows are filled after a few polling cycles (24 h window after ~24 h).
