@@ -2,7 +2,11 @@
 
 Custom integration exposing your **OpenRouter credits and spend** in Home Assistant — including rolling consumption (last hour / 2 hours / 24 hours).
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
+[![GitHub Release](https://img.shields.io/github/release/e-p-s/ha-openrouter-usage.svg)](https://github.com/e-p-s/ha-openrouter-usage/releases)
+[![Validate with hassfest](https://github.com/e-p-s/ha-openrouter-usage/actions/workflows/hassfest.yaml/badge.svg)](https://github.com/e-p-s/ha-openrouter-usage/actions/workflows/hassfest.yaml)
+[![HACS Validation](https://github.com/e-p-s/ha-openrouter-usage/actions/workflows/validate.yaml/badge.svg)](https://github.com/e-p-s/ha-openrouter-usage/actions/workflows/validate.yaml)
+[![License: MIT](https://img.shields.io/github/license/e-p-s/ha-openrouter-usage.svg)](LICENSE)
 ![hassfest](https://github.com/e-p-s/ha-openrouter-usage/actions/workflows/hassfest.yaml/badge.svg)
 
 ## What it does
@@ -26,6 +30,15 @@ Every poll is stored as a sample in a rolling 48 h history (`.storage/openrouter
 - An OpenRouter API key ([openrouter.ai → Keys](https://openrouter.ai/settings/keys))
 
 ## Installation
+
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=openrouter_usage)
+
+*Requires the integration to be installed first (HACS or manual).*
+
+### HACS (custom repository)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=e-p-s&repository=ha-openrouter-usage&category=integration)
+
 
 ### HACS (custom repository)
 
